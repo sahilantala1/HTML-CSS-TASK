@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0864B1;
+    background-image: url("Background\ Shape.png");
+    width: 1599px;
+    height: 1066px;
+}
+
+.headertext {
+    /* font-size: 45px; */
+    line-height: 80px;
+    color: white;
+}
+
+.mainfont {
+    color: white;
+}
+.ulfont{
+    color: white;
+}
+p {
+    color: white;
+}
+.vectorimg{
+    width: 688px;
+    height: 800px;
+}
+.row{
+    padding-top: 60px;
+}

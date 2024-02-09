@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'mulishextralight';
+    src: url('mulish-variablefont_wght-webfont.woff2') format('woff2'),
+         url('mulish-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+    font-family: 'mulishextralight';
+}
+@font-face {
+    font-family:"headerfont";
+    src: url(headerfont.ttf);
+}
+
+@font-face {
+    font-family: "poppins-light";
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins-black";
+    src: url(Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "muli-font";
+    src: url(Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "OpenSans-font-regular";
+    src: url(OpenSans_Condensed-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSanslight-font";
+    src: url(Poppins-Light.ttf);
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(68, 68, 231);
+    border-bottom-right-radius: 70%;
+}
+
+.firstpart {
+    display: flex;
+}
+
+.logo {
+    width: 172px;
+    height: 60px;
+    margin-top: 17px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 46px;
+    letter-spacing: 0;
+    margin-top: 50px;
+    font-family: "headerfont";
+
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    line-height: 34px;
+    font-family: "poppins-light";
+
+}
+
+.btn {
+    background-color: #6FBD13;
+    color: white;
+    margin-top: 50px;
+    width: 210px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 34px;
+    box-shadow: 0px 0px 15px #6FBD1319;
+    opacity: 1;
+}
+
+#group {
+    width: 534px;
+    height: 531px;
+    object-position: 50px 70px;
+
+}
+
+h2 {
+    margin-top: 30px;
+    color: #303E4B;
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: center;
+    font-family: "headerfont";
+}
+
+.main {
+    width: 1140px;
+    margin: auto;
+}
+
+.working {
+    border: 5px;
+}
+
+#inputdata {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#process {
+    width: 42px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#data {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.slider {
+    display: flex;
+    margin-top: 60px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 22px;
+    line-height: 34px;
+    font-family: "headerfont";
+    margin-left: 30px;
+}
+
+.p2{
+    color: #748EAA;
+    font-size: 15px;
+    margin-left: 30px;
+    line-height: 28px;
+    width: 299px;
+    height: 105px;
+    padding-bottom: 47px;
+    font-family: "poppins-regular";
+}
+
+.box {
+    width: 360px;
+    height: 360px;
+    box-shadow: 0px 2px 10px #2067DD19;
+    margin: 20px;
+}
+
+.domain {
+    margin-top: 96px;
+}
+
+.domainone {
+    margin-top: 76px;
+    box-shadow: 0px 2px 10px #2067DD19;
+    width: 555px;
+    height: 233px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h3 {
+    margin-left: 40px;
+    font-size: 22px;
+    line-height: 34px;
+    padding-top: 30px;
+}
+
+.p3 {
+    color: #748EAA;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 28px;
+    width: 475px;
+    height: 105px;
+    font-family: "poppins-regular";
+}
+
+.title {
+    margin-top: 96px;
+    margin-bottom: 76px;
+}
+
+.work {
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    color: #303E4B;
+    letter-spacing: 0;
+    margin-bottom: 21px;
+    margin-top: 85px;
+}
+
+.p4 {
+    color: #748EAA;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "poppins-regular";
+    
+}
+
+.worklast {
+    text-align: center;
+}
+
+.btn2 {
+    background-color: #6FBD13;
+    color: white;
+    margin-top: 45px;
+    width: 210px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 34px;
+    box-shadow: 0px 0px 15px #6FBD1319;
+    opacity: 1;
+    margin-bottom: 105px;
+}
+
+.aboutus {
+    text-align: left;
+    background-position: center;
+    margin: auto;
+    background-image: url("/images/Background/Background.png");
+}
+
+.about {
+    padding-top: 98px;
+    color: white;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 34px;
+    padding-bottom: 40px;
+}
+
+.aboutp {
+    font-size: 15px;
+    margin-left: 0px;
+    font-family: "poppins-regular";
+
+}
+
+.inner {
+    margin-left: -30px;
+}
+
+.aboutlorem {
+    height: 105px;
+    width: 595px;
+    padding-bottom: 124px;
+    margin-top: 40px;
+}
+
+.domainone:hover {
+    background-color: #2067DD;
+}
+
+.h3 {
+    color: #303E4B;
+}
+
+.p3 {
+    color: #748EAA;
+}
+
+.domainone:hover .h3 {
+    color: white;
+}
+
+.domainone:hover .p3 {
+    color: white;
+}
+
+.contact {
+    margin-bottom: 21px;
+}
+
+.contactptag {
+    text-align: center;
+    color: #748EAA;
+    font-size: 18px;
+    font-family: "poppins-regular";
+}
+
+.formformate {
+    margin-top: 49px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px #2067DD19;
+}
+
+.message {
+    text-align: left;
+    color: #2067DD;
+    margin-left: 30px;
+    padding-top: 38px;
+    margin-bottom: 42px;
+    font-size: 22px;
+    margin-top: 38px;
+    font-family: "muli-font";
+}
+
+.text {
+    width: 262px;
+    height: 45px;
+}
+
+.maindomain {
+    display: flex;
+}
+
+label {
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+::placeholder {
+    padding-left: 14px;
+    padding-right: 120px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: "OpenSanslight-font";
+}
+
+.text {
+    margin-left: 30px;
+    margin-bottom: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #748EAA;
+    border-radius: 4px;
+    opacity: 0.25;
+}
+
+.form {
+    display: flex;
+}
+
+.textarea {
+    width: 555px;
+    height: 135px;
+    margin-left: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #748EAA;
+    border-radius: 4px;
+    opacity: 0.25;
+}
+
+h4 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.OpenSans{
+    font-family: "OpenSans-font-regular";
+    font-size: 15px;
+    color: #303E4B;
+}
+
+.btn3 {
+    background-color: #6FBD13;
+    color: white;
+    margin-top: 50px;
+    width: 210px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 34px;
+    box-shadow: 0px 0px 15px #6FBD1319;
+    opacity: 1;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.maindiv {
+    display: flex;
+}
+
+.contactinfo {
+    background-color: #2067DD;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.message.contactcolor {
+    color: white;
+    margin-bottom: 37px;
+}
+
+#logo {
+    margin-left: 30px;
+    width: 13px;
+    height: 18px;
+}
+
+.logo {
+    display: flex;
+}
+
+.addresslogo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.address {
+    width: 243px;
+    height: 76px;
+    color: white;
+    font-size: 15px;
+    line-height: 28px;
+
+}
+
+.calllogo {
+    width: 18px;
+    height: 18px;
+}
+
+.call {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#calllogo {
+    width: 13px;
+    height: 18px;
+    margin-left: 30px;
+}
+
+.phonelogo {
+    display: flex;
+    margin-left: 30px;
+    color: rgb(80, 161, 231);
+
+}
+
+.addresslogo {
+    display: flex;
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 30px;
+    color: rgb(80, 161, 231);
+
+}
+.phonecall{
+    font-family: "OpenSans-font-regular";
+    line-height: 28px;
+    font-size: 15px;
+}
+
+#maillogo {
+    margin-left: 30px;
+    width: 20px;
+    height: 16px;
+}
+
+
+.location {
+    color: white;
+    font-family: "OpenSans-font-regular";
+
+}
+
+#sociallogo {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+#drone {
+    margin-top: -5%;
+    margin-left: 68%;
+    width: 262px;
+    height: 161px;
+
+}
+
+.allmedia {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+    margin: 10px;
+    background-color: rgb(80, 161, 231);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: -1px;
+}
+
+.droneimg {
+    margin-bottom: 126px;
+    position: relative;
+}
+
+.lastsection {
+    background-color: #91b3ea;
+    margin-top: 100px;
+}
+
+.footerfont {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    opacity: 1;
+    margin: 0;
+    font-family: "OpenSans-font-regular";
+}
+
+.drone {
+    position: absolute;
+    bottom:-195px;
+    right: -110px;
+    
+}
